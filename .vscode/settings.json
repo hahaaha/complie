@@ -1,3 +1,4 @@
 {
+    "editor.formatOnSave": true,
     "mochaExplorer.files": "src/tests/**/*.test.js",
 }

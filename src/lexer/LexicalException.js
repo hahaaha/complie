@@ -3,7 +3,7 @@ class LexicalException extends Error {
         super(msg)
     }
 
-    static formChar(c) {
+    static fromChar(c) {
         return new LexicalException(`unexpected char ${c}`)
     }
 }
